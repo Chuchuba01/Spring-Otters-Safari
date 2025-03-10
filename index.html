@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spring Otters Safari - Tours Travel with us</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-uppercase" href="#">Safari Tours</a>
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              <li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+      <main>
+        <section class="modal fade" tabindex="-1" id="bookingModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Book a Tour</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="#">
+                  <div class="row g-2">
+                    <div class="col-ms-6">
+                      <div class="form-floating">
+                        input id="email1" type="text" class="form-control" placeholder="Your Email">
+                        <label for="email1">Email Addres</label>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-ms-6">
+                      <div class="form-floating">
+                        <select id="select1" class="form-select">
+                          <option> Serengeti - 500$</option>
+                          <option>Kolimanjaro Mountain - 750$</option>
+                          <option>Ngorongoro Valley - 650$</option>
+                          <option>Tarangilre National Park - 750$</option> 
+                        </select>
+                        <label for="Select11">Choose a Tour</label>
+                      </div>
+                    </div>
+                    </div>
+                 
+                </form>
+
+                <p>Modal body text goes here.</p>
+
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Closebutton>
+                <button type="button" class="btn btn-primary">Check Out</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+           
+            <div class="carousel-item active c-item">
+              <img src="images/pic1.jpg" class="d-block w-100 c-img" alt="Wildlife Safari Tour">
+              <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">Discover the Wildlife World</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Spring Otters Safari Tours</h1>
+                <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
+                  Book Now
+                </button>
+              </div>
+            </div>
+        
+           
+            <div class="carousel-item c-item">
+              <img src="images/pic2.jpg" class="d-block w-100 c-img" alt="Safari Adventure">
+              <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">The Season Has Arrived</p>
+                <h1 class="display-1 fw-bolder text-capitalize">4 Safari Tours Available</h1>
+                <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
+                  Book  Now
+                </button>
+              </div>
+            </div>
+        
+            
+            <div class="carousel-item c-item">
+              <img src="images/pic3.jpg" class="d-block w-100 c-img" alt="Hot Air Balloon Safari">
+              <div class="carousel-caption top-0 mt-4">
+                <p class="fs-3 mt-5 text-uppercase">Destination Activities</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Do Air Balloon Safari Tours</h1>
+                <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        
+         
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+
+          <section class="overview ">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+              <div class="row w-100 text-center fs-4">
+                <div class="col-xl">
+                  <i class="bi bi-airplane-fill me-2" ></i>
+                  4 Amazing Deestionations
+                </div>
+    
+                <div class="col-xl">
+                  <i class="bi bi-wallet-fill me-2"></i>
+                  Only pay 5% up Front
+                </div>
+    
+                <div class="col-xl">
+                  <i class="bi bi-cloud-check-fill"></i>
+                  1000's of Happy Customers
+                </div> 
+              </div>
+          </div>
+          </section>
+
+          <section id="packages" class="pt-5">
+            <h2 class="text-center my-5">Packages</h2>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg">
+                  <div class="card">
+                    <img src="images/pic-c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Serengeti</h5>
+                      <p class="card-text">The Serengeti National Park is a Tanzanian national park in the Serengeti ecosystem in the Mara and Simiyu regions.</p>
+                      <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Book Now</button>
+                </div>
+              </div>
+            </div>
+            
+                <div class="col-lg"> 
+                  <div class="card">
+                    <img src="images/picb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ngorongoro Valley</h5>
+                      <p class="card-text">Ngorongoro Conservation Area is a protected area and a UNESCO World Heritage Site located in Ngorongoro District or the Masailand.</p>
+                      <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Book Now</button>
+                </div>
+              </div>
+            </div>
+            
+                <div class="col-lg">
+                  <div class="card">
+                    <img src="images/pic3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tarangire National Park</h5>
+                      <p class="card-text">Tarangire National Park is a national park in northern Tanzania. It was established in 1970, covers 2600 square kilometers and is located southwest of Arusha.</p>
+                      <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">Book Now</button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+        </section>
+        <section id="faq" class="py-md-5">
+          <h2 class="my-5 text-center">FAQ</h2>
+          <div class="container">
+              <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              How is life  in Tanzania?
+                          </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            Expats in Tanzania can enjoy a laid-back lifestyle. Fresh food and meat are plentiful in the major towns and cities, and the bigger centres boast a thriving drinking culture with plentiful nightlife. Public transport within Tanzania can be limited.
+                          </div>
+                      </div>
+                  </div> 
+      
+                  <div class="accordion-item">
+                      <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              How expensive it is doing Safari in Tanzania?
+                          </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            On average, a budget Tanzania safari costs $250 (USD) per person per day, a mid-range safari costs $375 per person per day, and a luxury safari costs $600 per person per day. We won't beat around the acacia bush, Tanzania is one of Africa's more expensive safari destinations.
+                          </div>
+                      </div>
+                  </div> 
+      
+                  <div class="accordion-item">
+                      <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            What language is spoken in Tanzania?
+                          </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+
+                          <div class="accordion-body">
+                            What is the most spoken language in Tanzania? Spoken by approximately 90% of the Tanzanian population, that would be Swahili. It's also called Kiswahili by Tanzanians, and it is the primary social, political, and educational language. The second institutional language is English.
+                          </div>
+                      </div>
+                  </div> 
+              </div>
+          </div>
+      </section>    
+      </main>
+
+      <footer class="bg-dark text-white text-center py-3">
+      <p class="display-5 mb-3">Safari Tours</p>
+      <small class="text-dark-60">&copy; Copyright by springOtters. All right reserved.</small>
+      </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
